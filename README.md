@@ -1,6 +1,11 @@
 # PageSlidingTab
 
+附上示例图
+![](https://github.com/Qiang3570/PageSlidingTab/blob/master/sample.gif)
+
 类似新闻客户端，应用市场，等基本项目框架，拿过去就能用等代码
+
+界面等加载状态，子类实现相应方法后返回数据即可，有加载中，加载失败，与加载数据为空三种状态，具体可看代码
 
 自定义view，PageSlidingTab，封装了ViewPageIndicator控制viewpage
 
@@ -14,7 +19,3 @@
 
 ![](https://github.com/Qiang3570/PageSlidingTab/blob/master/img/97254E17-1356-408C-81E2-7284A7EF5995.png)
 ![](https://github.com/Qiang3570/PageSlidingTab/blob/master/img/BCBC56ED-0DC9-4F5F-972E-D1A572551647.png)
-
-最后附上示例图
-
-![](https://github.com/Qiang3570/PageSlidingTab/blob/master/sample.gif)
