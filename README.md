@@ -8,7 +8,7 @@
 
 界面等加载状态，子类实现相应方法后返回数据即可，有加载中，加载失败，与加载数据为空三种状态，具体可看代码
 
-自定义view，PageSlidingTab，封装了ViewPageIndicator控制viewpage
+自定义view，PageSlidingTab，封装了ViewPageIndicator控制viewpage，且保留了预加载特性
 
 并使用fragment与该view进行关联，方便界面之间通信
 
