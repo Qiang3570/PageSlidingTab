@@ -48,7 +48,6 @@ public class MainActivity extends ActionBarActivity {
         actionBar.setTitle(getString(R.string.app_name));/*设置actionbar上面的name*/
         actionBar.setDisplayHomeAsUpEnabled(true);/*显示home按钮*/
         actionBar.setDisplayShowHomeEnabled(true);/*设置home按钮可以被点击*/
-        actionBar.setHomeAsUpIndicator(R.drawable.ic_launcher);/*设置actionbar上面可点击按钮的图标*/
         drawerToggle = new ActionBarDrawerToggle(this,drawLayout,0,0);/*关联ActionBar和DrawLayout*/
         drawLayout.setDrawerListener(new DrawerLayout.DrawerListener() {/*给可点击图标增加动画*/
             @Override
